@@ -1,5 +1,7 @@
-# popibox
+# tapebox
+A quantion box built in Vuejs.
 
+If you want to build your own box, you need to modify tape url in App.vue.
 ## Project setup
 ```
 npm install
@@ -19,6 +21,7 @@ npm run build
 ```
 npm run lint
 ```
+
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).

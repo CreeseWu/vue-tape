@@ -44,7 +44,7 @@
 <script>
 import axios from 'axios';
 
-const api = 'https://apiv4.tapechat.net/unuser/getQuestionFromUser/IKM4IF45?pageSize=2000&lastTimeStamp=1619761358528'
+const apiUrl = 'https://apiv4.tapechat.net/unuser/getQuestionFromUser/IKM4IF45?pageSize=2000&lastTimeStamp=1619761358528'
 
 
 export default {
@@ -67,7 +67,7 @@ export default {
   },
   mounted: function () {
 
-    axios.get(api).then(
+    axios.get(apiUrl).then(
         (response) => {
           console.log(response.data.content.data)
           this.questionList = response.data.content.data
