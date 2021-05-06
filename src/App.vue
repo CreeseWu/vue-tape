@@ -44,7 +44,7 @@
 <script>
 import axios from 'axios';
 
-const apiUrl = 'https://apiv4.tapechat.net/unuser/getQuestionFromUser/IKM4IF45?pageSize=2000&lastTimeStamp=1619761358528'
+const apiUrl = 'https://apiv4.tapechat.net/unuser/getQuestionFromUser/IKM4IF45?pageSize=2000&lastTimeStamp=' + Date.parse(new Date())
 
 
 export default {
